@@ -3,7 +3,7 @@ Using docker as a backdoor
 
 
 ## Prerequisite
-This script works by exploiting the docker socket. The target machine must have the docker socket enabled and listening for TCP connections. By default, this feature of Docker is disabled. If the socket is not open, this script will not work.
+This script works by exploiting the docker daemon. The target machine must have the docker daemon enabled and listening for TCP connections. By default, this feature of Docker is disabled. If the daemon is not enabled, this script will not work.
 
 Host machine needs Python3 & docker python library
 - pip install docker
