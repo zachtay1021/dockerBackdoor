@@ -1,4 +1,4 @@
-# Python script to exploit the Docker daemon and get RCE
+# Python script to get RCE with the use of Docker
 
 import docker
 
