@@ -7,7 +7,7 @@ def main():
     host_ip = ''
 
     # Target should be the IP of the system you are attacking
-    target_ip = '192.168.1.38'
+    target_ip = ''
 
     try:
         # sets IP to connect to Docker Daemon
